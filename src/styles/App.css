@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap");
+
+body {
+  background-color: Beige;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.game-board {
+  max-width: 25%;
+  margin: auto;
+  margin-top: 2em;
+  min-width: 300px;
+}

@@ -1,0 +1,24 @@
+button {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2em;
+    color: white;
+    
+    background-color: MidnightBlue;
+    
+    padding: 0.25em;
+    border: thin solid transparent;
+    border-radius: 0.25em;
+    outline: none;
+}
+
+button:hover {
+    
+    border: thin solid MidnightBlue;
+    color: MidnightBlue;
+    background-color: white;
+}
+
+button:active {
+    
+    transform: translateY(2px);
+}

@@ -1,0 +1,64 @@
+.game-cell {
+    width: 33%;
+    min-width: 90px;
+    
+    text-align: center;
+}
+
+.game-cell-inner {
+    position: relative;
+    padding-bottom: 100%;
+    text-align: center;
+}
+
+.content {
+   position: absolute;
+   text-align: center;
+   font-size: 5em;
+   width: 100%;
+}
+
+.top-left {
+    border-bottom: thin solid black;
+    border-right: thin solid black;
+}
+.top-center {
+    border-left: thin solid black;
+    border-bottom: thin solid black;
+    border-right: thin solid black;
+}
+.top-right {
+    border-left: thin solid black;
+    border-bottom: thin solid black;
+}
+
+.middle-left {
+    border-top: thin solid black;
+    border-bottom: thin solid black;
+    border-right: thin solid black;
+}
+.middle-center {
+    border-top: thin solid black;
+    border-left: thin solid black;
+    border-bottom: thin solid black;
+    border-right: thin solid black;
+}
+.middle-right {
+    border-top: thin solid black;
+    border-bottom: thin solid black;
+    border-left: thin solid black;
+}
+
+.bottom-left {
+    border-top: thin solid black;
+    border-right: thin solid black;
+}
+.bottom-center {
+    border-left: thin solid black;
+    border-top: thin solid black;
+    border-right: thin solid black;
+}
+.bottom-right {
+    border-left: thin solid black;
+    border-top: thin solid black;
+}

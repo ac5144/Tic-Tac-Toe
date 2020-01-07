@@ -1,0 +1,28 @@
+.scoreBoard {
+    display: flex;
+    justify-content: space-around;
+    
+    background-color: MidnightBlue;
+    
+    color: Beige;
+    font-size: 1.5em;
+    
+    box-shadow: 0px 3px 2px Gray;
+}
+
+.scoreBoard div {
+    padding: 0.5em;
+}
+
+.playerX {
+    
+    background-color: Red;
+}
+
+.playerO {
+    background-color: DodgerBlue;
+}
+
+.result {
+    position: absolute;
+}
